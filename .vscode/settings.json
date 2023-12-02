@@ -1,5 +1,6 @@
 {
   "eslint.workingDirectories": [
     "."
-  ]
+  ],
+  "jest.jestCommandLine": "npx jest"
 }

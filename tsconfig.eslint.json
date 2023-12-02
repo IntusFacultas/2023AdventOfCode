@@ -1,7 +1,7 @@
 {
   "extends": "./tsconfig.base.json",
   "include": [
-    "trebuchet/*.ts",
+    "trebuchet/**/*.ts",
     // Linter Config files
     ".eslintrc.js",
     ".prettierrc.js",

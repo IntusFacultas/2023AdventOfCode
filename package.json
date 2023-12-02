@@ -1,9 +1,11 @@
 {
   "name": "adventofcode",
   "version": "1.0.0",
-  "description": "",
+  "description": "Advent of Code 2023",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
+    "start": "ts-node",
     "test": "jest --passWithNoTests",
     "lint": "npx eslint './**/*.ts' --no-error-on-unmatched-pattern"
   },
@@ -11,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/IntusFacultas/2023AdventOfCode.git"
   },
-  "author": "",
+  "author": "Pedro Del Moral Lopez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/IntusFacultas/2023AdventOfCode/issues"

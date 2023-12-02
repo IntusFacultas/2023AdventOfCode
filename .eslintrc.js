@@ -16,6 +16,7 @@ const config = {
     rules: {
         semi: ['error', 'always'],
         indent: 'error',
+        eqeqeq: ['error', 'always'],
         quotes: [
             'error',
             'single',
