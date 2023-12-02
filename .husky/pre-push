@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+
+if [  ]; then
+    echo 'pre-commit hook skipped' 1>&2
+    exit 0
+fi
+npm run test && npm run lint

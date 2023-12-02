@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "trebuchet/*.ts"
+  ]
+}
