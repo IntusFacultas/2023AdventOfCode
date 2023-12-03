@@ -6,6 +6,7 @@
     ".eslintrc.js",
     ".prettierrc.js",
     "jest.config.js",
+    "jest.setup.ts",
     
     // TS Config files
     "tsconfig.eslint.json",

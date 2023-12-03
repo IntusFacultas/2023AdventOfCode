@@ -2,5 +2,6 @@
   "eslint.workingDirectories": [
     "."
   ],
-  "jest.jestCommandLine": "npx jest"
+  // "jest.shell": "/bin/zsh",
+  "jest.rootPath": ".",
 }

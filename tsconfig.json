@@ -6,6 +6,7 @@
     "incremental": true
   },
   "include": [
-    "trebuchet/*.ts"
+    "trebuchet/**/*.ts",
+    "jest.setup.ts"
   ]
 }
